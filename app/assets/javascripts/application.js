@@ -45,7 +45,8 @@ $( document ).ready(function() {
         "sPrevious": "Anterior"
       }
     },
-    "iDisplayLength": 25
+    "iDisplayLength": 25,
+    "sPaginationType": "full_numbers"
   });
   $("form").submit(function() {
       $(this).submit(function() {
